@@ -1,0 +1,26 @@
+---
+# Frontmatter for Jekyll
+---
+
+@import "reset";
+@import "neat/neat";
+@import "bourbon/bourbon";
+
+@import "variables";
+@import "base";
+@import "lists";
+
+
+$sig-grid: (
+  columns: 12,
+  gutter: 20px,
+  media: "(min-width: 1200px)",
+);
+
+// @include grid-media($sig-grid) {
+//   html {
+//     text-align: center;
+//   }
+// }
+
+

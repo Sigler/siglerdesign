@@ -1,0 +1,49 @@
+// Color Palette
+$color-primary: #E04B4B;
+$black: #212121;
+$gray-dark: #272727;
+$gray-med: #363636;
+$gray-light: #dedede;
+$white: #fff;
+
+// Backgrounds
+$bg-primary: $black;
+$bg-secondary: $gray-dark;
+$bg-light: $gray-med;
+$bg-highlight: $color-primary;
+
+// Typography
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+$font-heading: "Montserrat";
+$font-body: "Open Sans";
+$font-dark: $gray-dark;
+$font-light: $gray-light;
+
+// Links & Actions
+$action-color: $color-primary;
+$action-visited: darken($color-primary, 20);
+$action-hover: lighten($color-primary, 5);
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.7);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 3px;
+
+// Spacing & Sizes
+$base-spacing: $base-line-height * 1rem;
+$small-spacing: $base-spacing / 2;
+$medium-spacing: $base-spacing * 1.25;
+$large-spacing: $base-spacing * 2;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Other
+$base-border: 2px;
+$base-border-radius: 3px;
+
+// Z-Index
+$base-z-index: 0;
